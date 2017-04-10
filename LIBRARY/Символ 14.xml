@@ -1,0 +1,24 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Символ 14" itemID="574305ad-0000003e" lastModified="1464010212">
+  <timeline>
+    <DOMTimeline name="Символ 14">
+      <layers>
+        <DOMLayer name="Слой 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMBitmapInstance libraryItemName="board_mc2.png">
+                  <matrix>
+                    <Matrix a="0" b="0.324127197265625" c="-0.864501953125" d="0" tx="216.95" ty="-144"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="145" y="37.05"/>
+                  </transformationPoint>
+                </DOMBitmapInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

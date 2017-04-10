@@ -1,0 +1,458 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#000000" width="600" frameRate="60" currentTimeline="1" xflVersion="2.7" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 15.1 build 13" majorVersion="15" minorVersion="1" buildNumber="13" timelineLabelWidth="169" viewAngle3D="59.1837342884091" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <media>
+          <DOMSoundItem name="Игра.mp3" itemID="5742f946-00000020" sourceExternalFilepath="./LIBRARY/Игра.mp3" sourceLastImported="1456477588" externalFileCRC32="3694941557" externalFileSize="1173503" href="Игра.mp3" soundDataHRef="M 2 1464006982.dat" format="44kHz 16bit Stereo" sampleCount="2540160" exportFormat="1" exportBits="7" dataLength="1172479" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="317520"/>
+          <DOMSoundItem name="Падение.wav" itemID="5742f947-00000024" sourceExternalFilepath="./LIBRARY/Падение.wav" sourceLastImported="1149534058" externalFileCRC32="476222058" externalFileSize="24112" href="Падение.wav" soundDataHRef="M 3 1464006983.dat" format="22kHz 16bit Mono" sampleCount="47799" dataLength="95598"/>
+          <DOMBitmapItem name="1212133333333333333.png" itemID="574456b2-00000021" sourceExternalFilepath="./LIBRARY/1212133333333333333.png" sourceLastImported="1464096031" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="1212133333333333333.png" bitmapDataHRef="M 6 1464096434.dat" frameRight="4820" frameBottom="4820"/>
+          <DOMBitmapItem name="31231231311111111111111111111.png" itemID="574456b2-0000001c" sourceExternalFilepath="./LIBRARY/31231231311111111111111111111.png" sourceLastImported="1464096412" externalFileCRC32="2328195580" externalFileSize="3539" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="31231231311111111111111111111.png" bitmapDataHRef="M 5 1464096434.dat" frameRight="2860" frameBottom="980"/>
+          <DOMBitmapItem name="board_mc2.png" itemID="5743055e-00000038" sourceExternalFilepath="./LIBRARY/board_mc2.png" sourceLastImported="1459936525" allowSmoothing="true" originalCompressionType="lossless" quality="50" href="board_mc2.png" bitmapDataHRef="M 4 1464010078.dat" frameRight="5800" frameBottom="1480"/>
+          <DOMBitmapItem name="Bullet1.png" itemID="57445906-0000006d" sourceExternalFilepath="./LIBRARY/Bullet1.png" sourceLastImported="1464097009" externalFileCRC32="3396748017" externalFileSize="1485" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Bullet1.png" bitmapDataHRef="M 7 1464097030.dat" frameRight="3160" frameBottom="1060"/>
+          <DOMSoundItem name="удар ракетки.mp3" itemID="5742f946-0000001c" sourceExternalFilepath="./LIBRARY/удар ракетки.mp3" sourceLastImported="1464006686" externalFileCRC32="19801376" externalFileSize="52200" href="удар ракетки.mp3" soundDataHRef="M 1 1464006982.dat" format="44kHz 16bit Stereo" sampleCount="57600" exportFormat="1" exportBits="7" dataLength="52200" exportNative="true" cacheFormat="5kHz 8bit Stereo" cachedSampleCount="7200"/>
+          <DOMBitmapItem name="maxresdefault.jpg" itemID="574459eb-000000a2" linkageExportForAS="true" linkageClassName="Fon" sourceExternalFilepath="./LIBRARY/maxresdefault.jpg" sourceLastImported="1464097244" externalFileCRC32="1361486252" externalFileSize="10394" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" quality="50" href="maxresdefault.jpg" bitmapDataHRef="M 8 1464097259.dat" frameRight="12000" frameBottom="8000" isJPEG="true"/>
+     </media>
+     <symbols>
+          <Include href="Символ 1.xml" loadImmediate="false" itemID="573c59e1-00000006" lastModified="1463572961"/>
+          <Include href="Символ 2.xml" loadImmediate="false" itemID="573c59e7-0000000a" lastModified="1463572967"/>
+          <Include href="Символ 3.xml" loadImmediate="false" itemID="573c5a23-0000000d" lastModified="1464076526"/>
+          <Include href="Символ 4.xml" loadImmediate="false" itemID="573c5aac-00000010" lastModified="1463573164"/>
+          <Include href="Символ 5.xml" loadImmediate="false" itemID="573c5aba-00000013" lastModified="1463573178"/>
+          <Include href="Символ 6.xml" loadImmediate="false" itemID="573c6ce9-00000016" lastModified="1463577833"/>
+          <Include href="Символ 7.xml" itemID="5741c71f-00000057" lastModified="1463928607"/>
+          <Include href="Символ 8.xml" loadImmediate="false" itemID="573c8223-0000001e" lastModified="1463583642"/>
+          <Include href="Символ 9.xml" itemID="5741c72a-0000005b" lastModified="1463928618"/>
+          <Include href="Символ 10.xml" itemIcon="0" loadImmediate="false" itemID="5741c9fd-0000005f" lastModified="1464076472"/>
+          <Include href="Символ 11.xml" loadImmediate="false" itemID="5742f1ed-00000011" lastModified="1464005716"/>
+          <Include href="Символ 12.xml" loadImmediate="false" itemID="5741be26-00000023" lastModified="1463927913"/>
+          <Include href="Символ 12 - копия.xml" loadImmediate="false" itemID="5741c0cc-0000004f" lastModified="1463927909"/>
+          <Include href="Символ 13.xml" loadImmediate="false" itemID="5742f495-00000016" lastModified="1464096875"/>
+          <Include href="Символ 14.xml" loadImmediate="false" itemID="574305ad-0000003e" lastModified="1464010212"/>
+          <Include href="Символ 15.xml" loadImmediate="false" itemID="57430731-0000006c" lastModified="1464076378"/>
+          <Include href="Символ 16.xml" loadImmediate="false" itemID="574456e5-00000038" lastModified="1464096671"/>
+          <Include href="Символ 17.xml" loadImmediate="false" itemID="574457c2-00000052" lastModified="1464096706"/>
+          <Include href="Символ 18.xml" loadImmediate="false" itemID="57445911-00000072" lastModified="1464097124"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Монтажный кадр 1">
+               <layers>
+                    <DOMLayer name="Слой 1" color="#4F80FF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[import flash.events.Event;
+import flash.ui.Keyboard;
+import flash.events.KeyboardEvent;
+import flash.events.MouseEvent;
+
+var up:Boolean = false;
+var down:Boolean = false;
+var left:Boolean = false;
+var right:Boolean = false;
+
+var nadpis1 = new win1();
+var nadpis2 = new win2();
+
+var goal1 = 0;
+var goal2 = 0;
+schet.text = goal1 + " : " + goal2;
+
+var soundOn = true;
+
+var board = {};
+board.clip = board_mc;
+board.speed = 3;
+board.w = board.clip.width;
+board.h = board.clip.height;
+
+var pc = {};
+pc.clip = board_mc2;
+pc.speed = 3;
+pc.w = pc.clip.width;
+pc.h = pc.clip.height;
+
+var ball = {};
+ball.clip = ball_mc;
+ball.speed = 3;
+ball.radius = ball.clip.width/2;
+ball.xmov = ball.speed;
+ball.ymov = 2 + Math.random()*2;
+ball.live = true;
+
+stage.addEventListener(KeyboardEvent.KEY_DOWN, kd);
+stage.addEventListener(KeyboardEvent.KEY_UP, ku);
+stage.addEventListener(Event.ENTER_FRAME, ef);
+povtor.addEventListener(MouseEvent.CLICK, repeat);
+knopka.addEventListener(MouseEvent.CLICK, mc);
+
+function mc (e:MouseEvent){
+	if(soundOn){
+		soundOn = false;
+		knopka.gotoAndStop(2);
+	}else{
+		soundOn = true;
+		knopka.gotoAndStop(1);
+	}
+}
+
+
+function playSound(zvuk){
+		if(soundOn){
+			musicBox.gotoAndStop(zvuk);
+		}
+}
+function repeat (e:MouseEvent){
+	if(goal1 == 5){
+		removeChild(nadpis1);
+	}
+	if(goal2 == 5){
+		removeChild(nadpis2);
+	}
+	ball.clip.x = 300;
+	ball.clip.y = 200;
+	ball.xmov = 3;
+	ball.ymov = 2 + Math.random()*2;
+	ball.clip.visible = true;
+	ball.live = true;
+	goal1 = 0;
+	goal2 = 0;
+	g1.gotoAndStop(1);
+	g2.gotoAndStop(1);
+	schet.text = goal1 + " : " + goal2;
+}
+function kd(e:KeyboardEvent){
+	trace(e);//Узнаем какой код у кнопки вниз
+	if(e.keyCode ==87){
+		up=true;
+	}
+	if(e.keyCode==83){
+		down=true;
+	}
+}
+function ku(e:KeyboardEvent){
+	trace(e);//Узнаем какой код у кнопки вниз
+	if(e.keyCode ==87){
+		up=false;
+	}
+	if(e.keyCode==83){
+		down=false;
+	}
+}
+
+//Алгоритм движения доски
+function board_player(){
+	if(up){
+		if((board.clip.y - board.h/2)> wall_up.y){
+			board.clip.y -= board.speed;
+			if(board.clip.y - board.h/2 < wall_up.y){
+				board.clip.y = wall_up.y + board.h/2;
+			}
+		}
+	}
+	if(down){
+		if((board.clip.y + board.h/2) < wall_down.y){
+		board.clip.y += board.speed;
+		if(board.clip.y + board.h/2 >  wall_down.y){
+			board.clip.y = wall_down.y - board.h/2;
+			}
+			
+		}
+	}
+}
+//Алгоритм движения доски противника
+function board_pc(){
+	if(ball.clip.y < pc.clip.y){
+		if((pc.clip.y - pc.h/2)> wall_up.y){
+			pc.clip.y -= pc.speed;
+			if(pc.clip.y - pc.h/2 < wall_up.y){
+				pc.clip.y = wall_up.y + pc.h/2;
+			}
+		}
+	}
+	if(ball.clip.y > pc.clip.y){
+		if((pc.clip.y + pc.h/2) < wall_down.y){
+		pc.clip.y += pc.speed;
+		if(pc.clip.y + pc.h/2 >  wall_down.y){
+			pc.clip.y = wall_down.y - pc.h/2;
+			}
+		}
+	}
+}
+//временное положение мячика
+function moveBalls(){
+	ball.tempx = ball.clip.x + ball.xmov;
+	ball.tempy = ball.clip.y + ball.ymov;
+}
+//Определяем столкновение шира с полом и потолком
+function detection(){
+	//Столкновение с верхней границей
+	if(ball.tempy - ball.radius < wall_up.y){
+		var yc = wall_up.y + ball.radius;
+		var otn = (ball.tempy - yc)/(ball.tempy - ball.clip.y);
+		var xc = ball.tempx - otn*(ball.tempx - ball.clip.x);
+		ball.tempx = xc;
+		ball.tempy = yc;
+		ball.ymov *= -1;
+		playSound("stena");
+	}
+	//столкновение с нижней границей
+	if(ball.tempy + ball.radius > wall_down.y){
+		yc = wall_down.y - ball.radius;
+		otn = (ball.tempy - yc)/(ball.tempy - ball.clip.y);
+		xc = ball.tempx - otn*(ball.tempx - ball.clip.x);
+		ball.tempx = xc;
+		ball.tempy = yc;
+		ball.ymov *= -1;
+		playSound("stena");
+	}
+}
+function board_ball_detect () {
+	//столкновение с доской игрока
+	if(ball.tempx - ball.radius < board.clip.x + board.w/2){
+		if((ball.clip.y <= board.clip.y + board.h/2 + ball.radius/2)
+			&& (ball.clip.y >= board.clip.y - board.h/2 - ball.radius/2)
+		&& ball.live){
+			var xc = board.clip.x + board.w/2 + ball.radius;
+			var otn = (ball.tempx - xc)/(ball.tempx - ball.clip.x);
+			var yc = ball.tempy - otn*(ball.tempy - ball.clip.y);
+			ball.tempx = xc;
+			ball.tempy = yc;
+			ball.xmov *= -1;
+			ball.xmov += 0.5;
+			ball.ymov *= 1.1;
+			pc.speed *= 1.09;
+			board.speed *= 1.16;
+			playSound("igrok");
+		}else{
+			ball.live = false;
+		}
+	}
+	//столкновение с доской противника
+	if(ball.tempx + ball.radius >= pc.clip.x - pc.w/2){
+		if((ball.clip.y <= pc.clip.y + pc.h/2 + ball.radius/2)
+		&& (ball.clip.y >= pc.clip.y - pc.h/2 - ball.radius/2)
+		&& ball.live){
+			xc = pc.clip.x - pc.w/2 - ball.radius;
+			otn = (ball.tempx - xc)/(ball.tempx - ball.clip.x);
+			yc = ball.tempy - otn*(ball.tempy - ball.clip.y);
+			ball.tempx = xc;
+			ball.tempy = yc;
+			ball.xmov *= -1;
+			ball.xmov -= 0.5;
+			ball.ymov *= 1.1;
+			pc.speed *= 1.09;
+			board.speed *= 0.99;
+			playSound("sopernik");
+		}else{
+			ball.live = false;
+		}
+	}
+}
+//рисуем шар
+function render(){
+	ball.clip.x = ball.tempx;
+	ball.clip.y = ball.tempy;
+}
+//когда забит гол
+function goal(){
+	if(ball.clip.x < -20){
+		goal2 += 1;
+		ball.clip.x = 300;
+		ball.clip.y = 200;
+		ball.live = true;
+		ball.xmov = 3;
+		ball.ymov = 2 + Math.random()*2;
+		schet.text = goal1 + " : " + goal2;
+		g2.gotoAndStop(goal2+1);
+		pc.speed = 3;
+		board.speed = 3;
+	}
+	if(ball.clip.x > 620){
+		goal1 += 1;
+		ball.clip.x = 300;
+		ball.clip.y = 200;
+		ball.live = true;
+		ball.xmov = 3;
+		ball.ymov = 2 + Math.random()*2;
+		schet.text = goal1 + " : " + goal2;
+		g1.gotoAndStop(goal1+1);
+		pc.speed = 3;
+		board.speed = 3;
+	}
+	if(goal1 == 5){
+		ball.xmov = 0;
+		ball.ymov = 0;
+		ball.clip.visible = false;
+		addChild(nadpis1);
+		nadpis1.x = 300;
+		nadpis1.y = 200;
+	}
+	if(goal2 == 5){
+		ball.xmov = 0;
+		ball.ymov = 0;
+		ball.clip.visible = false;
+		addChild(nadpis2);
+		nadpis2.x = 300;
+		nadpis2.y = 200;
+
+	}
+}
+function ef(e:Event){
+	moveBalls();
+	board_player();
+	board_pc();
+	detection();
+	board_ball_detect ();
+	render();
+	goal();
+	
+	
+}]]></script>
+                                   </Actionscript>
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#FFFFFF"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <strokes>
+                                                  <StrokeStyle index="1">
+                                                       <SolidStroke scaleMode="normal">
+                                                            <fill>
+                                                                 <SolidColor color="#3300FF"/>
+                                                            </fill>
+                                                       </SolidStroke>
+                                                  </StrokeStyle>
+                                             </strokes>
+                                             <edges>
+                                                  <Edge strokeStyle="1" edges="!11959 60|12059 60"/>
+                                                  <Edge fillStyle1="1" edges="!6150 3799|6197 3799!6197 3799[#183F.BD #ED7.6A 6218.5 3800!6218.5 3800|6127 3800!6127 3800[#17FA.4C #ED7.5A 6150 3799"/>
+                                                  <Edge cubics="!11959 60(;11959,60 12059,60 12059,60q11959 60 12059 60);"/>
+                                                  <Edge cubics="!6150 3799(;6150,3799 6197,3799 6197,3799q6150 3799 6197 3799);"/>
+                                                  <Edge cubics="!6197 3799(;6204,3799 6212,3799 6219,3800q6197 3799Q6208 3799q6219 3800);"/>
+                                                  <Edge cubics="!6219 3800(;6219,3800 6127,3800 6127,3800q6219 3800 6127 3800);"/>
+                                                  <Edge cubics="!6127 3800(;6134,3799 6142,3799 6150,3799q6127 3800Q6138 3799q6150 3799);"/>
+                                             </edges>
+                                        </DOMShape>
+                                        <DOMSymbolInstance libraryItemName="Символ 18" name="board_mc">
+                                             <matrix>
+                                                  <Matrix tx="20.5" ty="164.5"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 15" name="board_mc2">
+                                             <matrix>
+                                                  <Matrix tx="577.95" ty="126"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 17" name="ball_mc">
+                                             <matrix>
+                                                  <Matrix a="0.095428466796875" d="0.0829925537109375" tx="316.95" ty="174"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 5" name="wall_down">
+                                             <matrix>
+                                                  <Matrix tx="301.45" ty="369"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 6" name="wall_up">
+                                             <matrix>
+                                                  <Matrix tx="295.95" ty="22"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 12" name="g1">
+                                             <matrix>
+                                                  <Matrix tx="10" ty="13"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 12 - копия" name="g2">
+                                             <matrix>
+                                                  <Matrix tx="515.95" ty="13"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="35" y="-1"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 10" name="povtor" symbolType="button">
+                                             <matrix>
+                                                  <Matrix a="0.784942626953125" d="0.690460205078125" tx="513.65" ty="427.2"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 11" name="knopka">
+                                             <matrix>
+                                                  <Matrix tx="488.25" ty="315.75"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Символ 13" name="musicBox">
+                                             <matrix>
+                                                  <Matrix tx="60.5" ty="384.3"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText name="schet" fontRenderingMode="device" left="9" width="119.95" height="24.55" isSelectable="false" lineType="multiline no wrap">
+                                             <matrix>
+                                                  <Matrix tx="274.55" ty="-2.05"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>       1 : 1</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="24.55" size="22" bitmapSize="440" face="Arial-BoldMT" fillColor="#0000FF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="38489" publishTime="1464097434"/>
+          <PublishItem publishSize="38489" publishTime="1464097130"/>
+          <PublishItem publishSize="38489" publishTime="1464097111"/>
+          <PublishItem publishSize="38214" publishTime="1464096888"/>
+          <PublishItem publishSize="38759" publishTime="1464096766"/>
+          <PublishItem publishSize="31705" publishTime="1464096625"/>
+          <PublishItem publishSize="31707" publishTime="1464096596"/>
+          <PublishItem publishSize="31707" publishTime="1464096556"/>
+          <PublishItem publishSize="31191" publishTime="1464076537"/>
+          <PublishItem publishSize="30482" publishTime="1464076440"/>
+          <PublishItem publishSize="30484" publishTime="1464076383"/>
+          <PublishItem publishSize="30483" publishTime="1464076363"/>
+          <PublishItem publishSize="30484" publishTime="1464076335"/>
+          <PublishItem publishSize="30484" publishTime="1464076155"/>
+          <PublishItem publishSize="30485" publishTime="1464076110"/>
+          <PublishItem publishSize="25009" publishTime="1464076031"/>
+          <PublishItem publishSize="25009" publishTime="1464075996"/>
+          <PublishItem publishSize="25009" publishTime="1464075974"/>
+          <PublishItem publishSize="25010" publishTime="1464075950"/>
+          <PublishItem publishSize="24999" publishTime="1464075898"/>
+     </publishHistory>
+</DOMDocument>

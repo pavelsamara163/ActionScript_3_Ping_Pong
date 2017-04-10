@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Символ 7" itemID="5741c71f-00000057" linkageExportForAS="true" linkageClassName="win1" lastModified="1463928607">
+  <timeline>
+    <DOMTimeline name="Символ 7">
+      <layers>
+        <DOMLayer name="Слой 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText selected="true" width="149" height="21.05" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="-74.5" ty="-10.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Выйграл Игрок :)</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineHeight="19.95" size="18" bitmapSize="360" face="TimesNewRomanPS-BoldMT" fillColor="#FF00FF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

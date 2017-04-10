@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Символ 9" itemID="5741c72a-0000005b" linkageExportForAS="true" linkageClassName="win2" lastModified="1463928618">
+  <timeline>
+    <DOMTimeline name="Символ 9">
+      <layers>
+        <DOMLayer name="Слой 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText selected="true" width="188.95" height="23.05" lineType="multiline no wrap">
+                  <matrix>
+                    <Matrix tx="-94.45" ty="-11.5"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Выйграл компьютер :(</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" lineHeight="19.95" size="18" bitmapSize="360" face="TimesNewRomanPS-BoldMT" fillColor="#FF0000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
